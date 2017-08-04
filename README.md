@@ -4,7 +4,7 @@ LT3032
 This repository contains the KiCAD PCB project files for a breakout board for the Linear Technologies LT3032 dual 150mA,
 positive/negative, low noise, LDO (http://www.linear.com/product/LT3032).
 
-![LT3032 breakout board](https://github.com/PatrickBaus/LT3032_breakout/images/LT3032-breakout.png)
+![LT3032 breakout board](/images/LT3032-breakout.png)
 
 About
 -----
