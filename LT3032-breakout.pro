@@ -1,4 +1,4 @@
-update=2017-07-07T03:20:24 CEST
+update=2017-08-04T06:53:39 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,6 +68,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=libraries/ADI
-LibName31=libraries/Texas Instruments
-LibName32=libraries/Linear Technology
+LibName30=libraries/Linear Technology
