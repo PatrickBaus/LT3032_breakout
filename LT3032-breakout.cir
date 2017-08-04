@@ -1,0 +1,66 @@
+* /Volumes/Max/Uni/Master-Physik/4. Semester/Max-OPLL-Boards/PCB-Board nach ADF4007_v.2/uniregelung-2.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Freitag, 30. Juni 2017 'u48' 10:48:22
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+IC1  Net-_IC1-Pad1_ Net-_IC1-Pad2_ Net-_IC1-Pad3_ Net-_C1-Pad1_ Net-_IC1-Pad5_ Net-_C25-Pad1_ Net-_C26-Pad1_ Net-_IC1-Pad10_ Net-_IC1-Pad11_ Net-_IC1-Pad12_ Net-_C2-Pad2_ Net-_IC1-Pad14_ Net-_IC1-Pad15_ Net-_IC1-Pad16_ OP467		
+IC2  ? Net-_IC2-Pad2_ Net-_C11-Pad1_ Net-_C18-Pad2_ ? Net-_IC2-Pad6_ Net-_C14-Pad2_ ? OPA847		
+C21  Net-_C21-Pad1_ Net-_C1-Pad1_ 0.1mu		
+C22  Net-_C22-Pad1_ Net-_C2-Pad2_ 0.1mu		
+R1  Net-_IC1-Pad3_ Net-_C3-Pad1_ R_Small		
+C3  Net-_C3-Pad1_ Net-_C3-Pad2_ C_Small		
+R7  Net-_IC2-Pad2_ Net-_IC1-Pad1_ R_Small		
+R4  Net-_R4-Pad1_ Net-_IC1-Pad1_ 510		
+R5  Net-_IC1-Pad1_ Net-_IC1-Pad2_ R_Small		
+R9  Net-_IC2-Pad2_ Net-_C26-Pad1_ 510		
+R6  Net-_IC1-Pad2_ Net-_R6-Pad2_ R_Small		
+R8  Net-_C11-Pad1_ Net-_C11-Pad2_ R_Small		
+C11  Net-_C11-Pad1_ Net-_C11-Pad2_ C_Small		
+R10  /+5 Net-_C14-Pad2_ 33		
+C14  Net-_C14-Pad1_ Net-_C14-Pad2_ 100p		
+C15  Net-_C15-Pad1_ Net-_C14-Pad2_ 10n		
+R11  Net-_C18-Pad2_ /-5 33		
+C19  Net-_C19-Pad1_ Net-_C18-Pad2_ 100n		
+C18  Net-_C18-Pad1_ Net-_C18-Pad2_ 10n		
+R12  Net-_C20-Pad1_ Net-_IC2-Pad6_ 56R		
+R14  Net-_IC1-Pad14_ Net-_C20-Pad1_ 51R		
+R13  Net-_C20-Pad1_ Net-_C20-Pad2_ R_Small		
+C20  Net-_C20-Pad1_ Net-_C20-Pad2_ C_Small		
+R16  Net-_R16-Pad1_ Net-_C20-Pad2_ R_Small		
+RV1  Net-_C20-Pad2_ Net-_R15-Pad2_ Net-_RV1-Pad3_ POT		
+R15  Net-_IC1-Pad12_ Net-_R15-Pad2_ 10k		
+R19  Net-_P4-Pad1_ Net-_IC1-Pad10_ 49.9R		
+R17  Net-_IC1-Pad10_ Net-_IC1-Pad11_ R_Small		
+R18  Net-_IC1-Pad11_ Net-_R18-Pad2_ R_Small		
+P6-12V1  Net-_C2-Pad2_ Conn		
+R22  Net-_P3-Pad1_ Net-_IC1-Pad16_ R56		
+R23  Net-_R23-Pad1_ Net-_P2-Pad1_ R56		
+R24  Net-_IC2-Pad6_ Net-_IC2-Pad2_ 150k		
+R25  Net-_R25-Pad1_ Net-_R23-Pad1_ 0R		
+R26  Net-_IC1-Pad16_ Net-_IC1-Pad15_ 0R		
+P1  Net-_IC1-Pad3_ Net-_P1-Pad2_ RFin		
+P3  Net-_P3-Pad1_ Net-_P3-Pad2_ PIEZ		
+P4  Net-_P4-Pad1_ Net-_P4-Pad2_ CURR		
+P2  Net-_P2-Pad1_ Net-_P2-Pad2_ ERRout		
+U1  ? Net-_C23-Pad1_ ? Net-_C25-Pad2_ ? Net-_C25-Pad1_ ? ? ADR4550		
+C24  Net-_C23-Pad1_ Net-_C24-Pad2_ 0.1mu		
+C23  Net-_C23-Pad1_ Net-_C23-Pad2_ 1mu		
+C25  Net-_C25-Pad1_ Net-_C25-Pad2_ 0.1mu		
+U6  ? Net-_R25-Pad1_ Net-_R4-Pad1_ Net-_U6-Pad4_ ? Net-_R23-Pad1_ Net-_U6-Pad7_ ? OP07		
+C26  Net-_C26-Pad1_ Net-_C25-Pad1_ 100n		
+R27  Net-_C26-Pad1_ Net-_C25-Pad1_ 100k		
+C1  Net-_C1-Pad1_ Net-_C1-Pad2_ 10mu		
+C2  Net-_C2-Pad1_ Net-_C2-Pad2_ 10mu		
+U8  /+5 ? Net-_C6-Pad2_ Net-_C4-Pad2_ Net-_C4-Pad2_ Net-_C5-Pad2_ /-5 ? Net-_C5-Pad2_ ? Net-_C7-Pad2_ ? ? Net-_C4-Pad1_ Net-_C4-Pad2_ Net-_C5-Pad2_ LT3020-5-12-15		
+C4  Net-_C4-Pad1_ Net-_C4-Pad2_ 10u		
+C5  Net-_C4-Pad2_ Net-_C5-Pad2_ 10u		
+C6  /+5 Net-_C6-Pad2_ 0.01u		
+C7  /-5 Net-_C7-Pad2_ 0.01u		
+C8  /+5 Net-_C8-Pad2_ 10u		
+C9  Net-_C8-Pad2_ /-5 10u		
+P5  Net-_P5-Pad1_ Net-_P5-Pad2_ Net-_P5-Pad3_ BANANJACK		
+
+.end
