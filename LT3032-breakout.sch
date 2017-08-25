@@ -282,4 +282,6 @@ Wire Wire Line
 	8100 3550 7850 3550
 Wire Wire Line
 	7850 3550 7850 4200
+Text Notes 4750 2500 0    60   ~ 0
+Note: Install a *fixed* voltage regulator.\nThe adjustable voltage regulator does not work.
 $EndSCHEMATC
